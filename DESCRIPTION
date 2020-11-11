@@ -1,0 +1,20 @@
+Package: wright.package
+Title: Calculate Shrub Stats
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "April",
+           family = "Wright",
+           role = c("aut", "cre"),
+           email = "april.wright@selu.edu")
+Description: This is an R package. It does stuff. 
+Depends:
+  R (>= 3.0.0)
+Imports: 
+  tidyverse, iNEXT, ggplot2, assertthat
+Suggests: 
+  knitr, rmarkdown, testthat
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
